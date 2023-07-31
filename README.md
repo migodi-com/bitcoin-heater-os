@@ -1,6 +1,12 @@
-# Bitcoin Heater OS: Open-Source Heater Management for Mining Equipment
+# Bitcoin Heater OS 
 
-Welcome to the Bitcoin Heater OS repository! This project provides an open-source (MIT) software solution that allows you to efficiently control and manage your heater system based on mining equipment. 
+[![license-badge]](LICENSE)  
+
+![Bitcoin Heater OS](https://i.imgur.com/OaBjUCN.png)
+
+# Bitcoin Heater OS v0.10 BETA, free and open-source Heater Management for Mining Equipment  
+
+This project provides an open-source software solution that allows you to efficiently control and manage your heater system based on mining equipment. 
 By integrating cryptocurrency mining capabilities into your heating system, you can earn Bitcoin while keeping your surroundings warm.
 
 ## Key Features:
@@ -31,8 +37,8 @@ Join our Telegram channel to get latest updates and support on this exciting jou
 
 
 # Hardware
-- Raspberry Pi
-- Miner
+- Raspberry Pi / Server / PC
+- Miner FW
 	- Vnish / [MinerDashApi](https://bitbucket.org/anthill-farm/miner-dash-api/)
 	- BraiinsOS (soon)
 
@@ -137,3 +143,9 @@ Builds the API and UI into `dist`, which can be deployed to the device.
 ### setup.sh
 
 Contains steps to setup a new Device. Only needed once.
+
+
+## Tip us
+
+If you like this project [send some love](https://legend.lnbits.com/paywall/neEGdmQvxZ6R5nmjimwjZZ)!
+
