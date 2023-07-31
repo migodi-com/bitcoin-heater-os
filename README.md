@@ -1,7 +1,5 @@
 # Bitcoin Heater OS 
 
-[![license-badge]](LICENSE)  
-
 ![Bitcoin Heater OS](https://i.imgur.com/OaBjUCN.png)
 
 # Bitcoin Heater OS v0.10 BETA, free and open-source Heater Management for Mining Equipment  
