@@ -1,0 +1,3 @@
+<template>
+	<svg viewBox="0 0 48 48" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"><clipPath id="icon-house-a"><path d="m22 4 22 16.8-1.8 2.35-4.2-3.2v20.05h-32v-20.05l-4.2 3.2-1.8-2.4 6-4.55v-5.7h3v3.4zm0 3.75-13 9.9v19.35h11.5v-8h3v8h11.5v-19.35zm-5-7.75c0 1.5-.5333333 2.79166667-1.6 3.875s-2.3666667 1.625-3.9 1.625c-.6666667 0-1.25.24166667-1.75.725s-.75 1.075-.75 1.775h-3c0-1.53333333.54166667-2.83333333 1.625-3.9s2.375-1.6 3.875-1.6c.7 0 1.2916667-.25 1.775-.75s.725-1.08333333.725-1.75z"/></clipPath><g clip-path="url(#icon-house-a)" transform="translate(2 4)"><path d="m0 0h44v40h-44z" fill="currentColor"/></g></svg>
+</template>

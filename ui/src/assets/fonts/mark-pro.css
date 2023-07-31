@@ -1,0 +1,15 @@
+@font-face {
+	font-family: 'Mark Pro';
+	font-style: normal;
+	font-weight: 500;
+	src: local('Mark Pro Medium'), url('mark-pro/MARKPROMEDIUM.woff') format('woff');
+	font-display: swap;
+}
+
+@font-face {
+	font-family: 'Mark Pro';
+	font-style: normal;
+	font-weight: 700;
+	src: local('Mark Pro Bold'), url('mark-pro/MARKPROBOLD.woff') format('woff');
+	font-display: swap;
+}

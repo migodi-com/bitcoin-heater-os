@@ -1,0 +1,153 @@
+@import "./base.css";
+
+nav .main-navigation-item.router-link-active {
+	@apply border-l-4 border-accent text-primary bg-gray-30;
+}
+
+.fade-enter-active,
+.fade-leave-active {
+	position: absolute;
+	left: 0;
+	right: 0;
+	top: 0;
+	transition: opacity 0.3s ease;
+}
+.fade-enter-from,
+.fade-leave-to {
+	opacity: 0;
+}
+
+.toggle input ~ label::after {
+	content: '';
+	@apply block w-11 h-6 ml-3 rounded-full bg-gray-60;
+}
+
+.toggle input:checked ~ label::after {
+	@apply bg-accent transition-opacity motion-reduce:transition-none;
+}
+
+.toggle input ~ label::before {
+	content: '';
+	@apply absolute block w-3 h-3 rounded-full bg-primary transition-all z-10 motion-reduce:transition-none;
+}
+
+.toggle input:checked ~ label::before {
+	@apply right-2 bg-gray-40;
+}
+
+.toggle input:not(:checked) ~ label::before {
+	@apply right-6;
+}
+
+.toggle input:disabled ~ label::after {
+	@apply opacity-70;
+}
+
+.toggle input {
+	opacity: 0;
+	position: absolute;
+}
+
+@media screen(lg) {
+	.toggle input ~ label::after {
+		@apply w-14 h-8;
+	}
+	
+	.toggle input ~ label::before {
+		@apply w-4 h-4;
+	}
+	
+	.toggle input:not(:checked) ~ label::before {
+		@apply right-8;
+	}
+}
+
+.radio-input label::after {
+	content: '';
+	@apply block w-5 h-5 text-accent border-primary-dark border-2 rounded-sm;
+}
+
+.radio-input input:checked ~ label::after {
+	@apply text-accent border-accent;
+	background-image: url("data:image/svg+xml;charset=utf-8,%3Csvg viewBox='0 0 16 16' fill='%23C7CC00' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M12.207 4.793a1 1 0 010 1.414l-5 5a1 1 0 01-1.414 0l-2-2a1 1 0 011.414-1.414L6.5 9.086l4.293-4.293a1 1 0 011.414 0z'/%3E%3C/svg%3E");
+	background-size: contain;
+}
+
+.radio-input input:checked ~ label {
+	@apply font-semibold;
+}
+
+.radio-input input {
+	opacity: 0;
+	position: absolute;
+}
+
+@media screen(lg) {
+	.radio-input label::after {
+		@apply w-7 h-7;
+	}
+}
+
+.hg-theme-default.dark {
+	@apply bg-transparent p-0 rounded-none;
+}
+
+.hg-theme-default.dark .hg-button {
+	@apply text-primary bg-gray-70 h-12 border-b-0 rounded-sm shadow-none;
+}
+
+.hg-theme-default.dark .hg-button.hg-standardBtn {
+	@apply max-w-16 text-xl;
+}
+
+.hg-theme-default.dark .hg-button.hg-functionBtn {
+	@apply text-xl;
+}
+
+.hg-theme-default.dark .hg-button:active, .hg-theme-default.dark .hg-button.hg-button-shiftactivated {
+	@apply text-primary bg-gray-50;
+}
+
+.hg-theme-default .hg-row {
+	@apply justify-center;
+}
+
+.hg-theme-default .hg-row:not(:last-child) {
+	@apply mb-3;
+}
+
+.hg-theme-default .hg-row .hg-button-container, .hg-theme-default .hg-row .hg-button:not(:last-child) {
+	@apply mr-3;
+}
+
+.hg-theme-default.hg-layout-numeric .hg-button {
+	@apply w-12 grow-0;
+}
+
+.hg-theme-default .hg-button.hg-button-alt, .hg-theme-default .hg-button.hg-button-default {
+	@apply w-20 grow-0;
+}
+
+.hg-theme-default .hg-button.hg-button-downkeyboard, .hg-theme-default .hg-button.hg-button-back {
+	@apply w-16 grow-0;
+}
+
+.hg-theme-default .hg-button.hg-button-enter {
+	@apply w-16 grow-0;
+}
+
+.hg-theme-default .hg-button.hg-button-shift {
+	
+}
+
+.hg-theme-default.dark.hg-layout-numeric {
+	@apply flex justify-center;
+}
+
+.hg-theme-default.dark.hg-layout-numeric .hg-rows {
+	
+}
+
+.hg-theme-default.dark.hg-layout-numeric .hg-rows .hg-row {
+	@apply justify-start;
+}

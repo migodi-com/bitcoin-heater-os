@@ -1,0 +1,28 @@
+{
+  "name": "bitcoin-heater-control",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "vite --force",
+    "build": "vite build",
+    "preview": "vite preview --port 4173"
+  },
+  "dependencies": {
+    "@vueuse/core": "^9.2.0",
+    "axios": "^0.27.2",
+    "localforage": "^1.10.0",
+    "pinia": "^2.0.21",
+    "simple-keyboard": "^3.4.187",
+    "uuid": "^9.0.0",
+    "vue": "^3.2.38",
+    "vue-i18n": "^9.2.2",
+    "vue-router": "^4.1.5"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-vue": "^3.0.3",
+    "autoprefixer": "^10.4.9",
+    "postcss": "^8.4.16",
+    "tailwindcss": "^3.1.8",
+    "vite": "^3.0.9"
+  }
+}

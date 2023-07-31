@@ -1,0 +1,1 @@
+/usr/bin/startx "$UIHOME/start-ui.sh" -- -nocursor >/dev/null 2>&1

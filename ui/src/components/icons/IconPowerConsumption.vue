@@ -1,0 +1,3 @@
+<template>
+	<svg viewBox="0 0 48 48" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"><clipPath id="icon-power-consumption-a"><path d="m8.1 0v8.55h7.8v-8.55h3v8.55h2.1c.8333333 0 1.5416667.29166667 2.125.875.5833333.5833333.875 1.2916667.875 2.125v10.75l-7.1 7.8v5.9h-9.8v-5.9l-7.1-7.8v-10.75c0-.8333333.29166667-1.5416667.875-2.125.58333333-.58333333 1.29166667-.875 2.125-.875h2.1v-8.55zm12.9 11.55h-18v9.55l7.1 7.8v4.1h3.8v-4.1l7.1-7.8z"/></clipPath><g clip-path="url(#icon-power-consumption-a)" transform="translate(12 6)"><path d="m0 0h24v36h-24z" fill="currentColor"/></g></svg>
+</template>

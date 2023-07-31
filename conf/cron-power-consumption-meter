@@ -1,0 +1,1 @@
+* * * * * %USER% cd %BASEDIR%/api && %BASEDIR%/api/bin/power-consumption-meter.js
